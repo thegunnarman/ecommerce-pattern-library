@@ -1,13 +1,13 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primiary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: greenyellow;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
+  --color-primary: #000000;
+  --color-primiary-light: #0b9444;
+  --color-secondary: #3c8050;
+  --color-accent: #8b5e3b;
+  --color-neutral-beige: #5b6d5e;
+  --color-whatever: #e09a69;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
-  -secondary: "Source Code Pro", Menlo, Consolas, monospace;
+  --font-primary: 'Nanum Gothic Coding', monospace;
+  -secondary:'Nanum Gothic Coding', monospace;'Merriweather', serif;
 
   amily: var(--font-primary);
 }
