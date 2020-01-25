@@ -1,0 +1,12 @@
+.btn {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-primary-light);
+  
+}
+
+.btn:hover {
+  background-color: var(--color-accent-light);
+  border-color: var(--color-accent-light);
+  color: var(--color-primary);
+}
