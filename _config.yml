@@ -2,5 +2,7 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "the frugal wookie"
+  description:
+    A store dedicated to affordable nerd things!
   font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i700|Source+Code+Pro:400,700"
-  
