@@ -11,3 +11,34 @@
 
   amily: var(--font-primary);
 }
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-weight: 900;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+a {
+  font-family: var(--font-primary);
+  font-weight: 100;
+  color: var(--color-accent);
+}
+
+dd {
+  font-family: var(--font-primary);
+  font-weight: 900;
+}
+
+q {
+  font-family: var(--font-primary);
+  font-weight: 100;
+  font-style: italic;
+}
