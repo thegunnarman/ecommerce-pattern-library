@@ -19,6 +19,6 @@ patternbot:
     typefaces.secondary: |
       Merriweather is chosen as a body text and will be used for large sections of text. It is serif based and can be easily read at smaller sizes.
     colors.primary: |
-    The primary colors represent the classic movie tropes and the saving of money.
+      The primary colors represent the classic movie tropes and the saving of money.
     colors.secomdary: |
-    The secondary colors are only to be used to highlight certain sections or when the user has highlighted a button.
+      The secondary colors are only to be used to highlight certain sections or when the user has highlighted a button.
