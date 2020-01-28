@@ -2,11 +2,26 @@
   background-color: var(--color-accent);
   border-color: var(--color-accent);
   color: var(--color-primary-light);
-  
+
 }
 
 .btn:hover {
-  background-color: var(--color-accent-light);
+  background-color: var(--color-secondary-accent-important);
   border-color: var(--color-accent-light);
   color: var(--color-primary);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-primary)
+}
+
+.btn-ghost:hover {
+  color: var(--color-neutral-beige)
+}
+
+.btn-light {
+  background-color: var(--color-secondary)
+  border-color: var(--color-primary)
+  color: var(--color-primary-light)
 }

@@ -8,10 +8,11 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i700|Source+Code+Pro:400,700"
 
   colors:
-    background: "--color-secondary"
+    background: "--color-primary"
     accent: "--color-primary-light"
     patterns:
-      brand.logos: "--color-primary-light"
+      brand.logos: "--color-secondary-accent-important"
+    buttons: "--color-secondary-accent-important"
 
   rationales:
     typefaces.primary: |
