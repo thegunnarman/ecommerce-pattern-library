@@ -12,7 +12,7 @@
 }
 
 .btn-ghost {
-  background-color: transparent;
+  background-color: var(--color-accent-light);
   color: var(--color-primary)
 }
 
