@@ -1,0 +1,22 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where dramatic, obvious action is required. Try not to overuse buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    titile: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
+      width: "12em"
+
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is for banners and smaller shop cards.
+      width: "12em"
+
+  light:
+    title: "Light"
+    description: |
+      The light button is used only at checkout and to confirm payments.
+      width: "12em"

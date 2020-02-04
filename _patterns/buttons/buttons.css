@@ -12,7 +12,7 @@
 }
 
 .btn-ghost {
-  background-color: var(--color-accent-light);
+  background-color: var(--color-secondary-accent-important);
   color: var(--color-primary)
 }
 
