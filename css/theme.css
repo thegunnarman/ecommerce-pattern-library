@@ -6,10 +6,10 @@
   --color-neutral-beige: #5b6d5e;
   --color-secondary-accent-important: #e09a69;
 
-  --font-primary: 'Nanum Gothic Coding', monospace;
-  -secondary:'Nanum Gothic Coding', monospace;'Merriweather', serif;
+  --font-primary: "Nanum Gothic Coding", monospace;
+  --secondary: "Nanum Gothic Coding", monospace;'Merriweather', serif;
 
-  amily: var(--font-primary);
+  family: var(--font-primary);
 }
 
 html {
@@ -21,9 +21,21 @@ h1 {
   font-weight: 900;
 }
 
-h2 {
+h2,
+h3 {
   font-family: var(--font-primary);
   font-weight: 500;
+}
+
+h4,
+h5,
+h6, {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+p {
+  font-family: var(--font-primary);
 }
 
 a {
@@ -41,4 +53,32 @@ q {
   font-family: var(--font-primary);
   font-weight: 100;
   font-style: italic;
+}
+
+ul li,
+ol li,
+dl dt {
+  list-style-type: none;
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+small {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+  font-weight: normal;
+}
+
+em,
+strong,
+del,
+ins,
+abbr,
+dfn,
+b,
+s,
+u,
+mark {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
 }

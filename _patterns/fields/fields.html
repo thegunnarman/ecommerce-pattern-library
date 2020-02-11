@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Fields</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="../../patterns/fields/fields.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family&#x3D;Raleway:500,700" rel="stylesheet">
+  <link href="fields.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="checkout-form island" role="main" id="main">
+
+    <h5 class="push-0 island-2">Billing Information</h5>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label class="push-1-8" for="name">Name <br><small>(as printed on the card)</small></br></label>
+      <input class="input" id="name" placeholder="Firstname Lastname" name="name" required>
+    </div>
+
+    <div class="xs-1 island-2">
+      <input id="visa" type="radio" name="valid">
+      <label for="visa">Visa</label>
+      <input id="mastercard" type="radio" name="valid">
+      <label for="mastercard">Master Card</label>
+      <input id="amex" type="radio" name="valid">
+      <label for="amex">Amex</label>
+    </div>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label class="push-1-8" for="card">Card Number</label>
+      <input class="input" id="card" placeholder="1234-5678-1234-5678" name="card" required>
+    </div>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label class="push-1-8" for="exp">Expiry Date</label>
+      <input class="input" id="exp" placeholder="06/21" name="exp" required>
+    </div>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label class="push-1-8" for="security">Security Number <br><small>(The 3 digits on the back of the card)</small></br></label>
+      <input class="input" id="security" placeholder="123" name="security" required>
+    </div>
+
+    <h5 class="push-0 island-2">Shipping Information</h5>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label class="push-1-8" for="name-2">Name</label>
+      <input class="input" id="name-2" placeholder="Firstname Lastname" name="name-2" required>
+    </div>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label class="push-1-8" for="address">Address</label>
+      <input class="input" id="address" placeholder="123 Adress Ave." name="address" required>
+    </div>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label class="push-1-8" for="province">Province</label>
+      <select class="input" id="province" placeholder="The province your city is in" name="province" required>
+        <option value="">Select a province</option>
+        <option>Alberta</option>
+        <option>British Columbia</option>
+        <option>Manitoba</option>
+        <option>New Brunswick</option>
+        <option>Newfoundland & Labrador</option>
+        <option>Northwest Territories</option>
+        <option>Nova Scotia</option>
+        <option>Nunavut</option>
+        <option>Ontario</option>
+        <option>Prince Edward Island</option>
+        <option>Québec</option>
+        <option>Saskatchewan</option>
+        <option>Yukon</option>
+      </select>
+    </div>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label class="push-1-8" for="city">City</label>
+      <input class="input" id="city" placeholder="The city you live in" name="city" required>
+    </div>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label class="push-1-8" for="postal-code">Postal Code</label>
+      <input class="input" id="postal-code" placeholder="You get the idea" name="postal-code" required>
+    </div>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label for="email">Email</label>
+      <input class="input" type="email" id="email" aria-describedby="email-error" required>
+    </div>
+
+    <div class="xs-1 m-1-2 l-1-4 island">
+      <label for="phone">Main Phone</label>
+      <input class="input" type="phone" id="phone" aria-describedby="phone-number-error" required>
+    </div>
+
+    <div class="island">
+      <button class="btn inline-block" type="submit">Place Order</button>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
