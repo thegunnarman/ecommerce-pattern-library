@@ -1,0 +1,23 @@
+description: |
+  Theforms are used in my website, but for listed features. Forms can be combined and changed with other form input fields throughout the product page.
+patterns:
+    contact-field:
+      title: "Contact Us Here"
+      description: |
+        Comment forms are used with other form input fields. Mainly on product description page.
+    name:
+      title: "Full Name"
+      description: |
+        User would input their full name here. Used with other input fields in the product description page.
+    phone:
+      title: "Phone Number Input"
+      description: |
+        Phone number input field for the user to put in when checking out.
+    list:
+      title: "Province List"
+      description: |
+        This is a province list for the user to select their location in the product checkout area.
+    email:
+      title: "Email Address"
+      description: |
+        This is where the user would input their email address in the form field. This is used with other inut form field items.
