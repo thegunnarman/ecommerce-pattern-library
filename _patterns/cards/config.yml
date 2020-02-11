@@ -1,0 +1,8 @@
+title: "Cards"
+description: |
+  Cards should be used in situations where needed. Try not to overuse buttons because they should be the primary call-to-action for a screen.
+patterns:
+  wookie:
+    titile: "Wookie Card"
+    description: |
+      This is the card for wookie.

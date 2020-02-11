@@ -7,13 +7,12 @@
   --color-secondary-accent-important: #e09a69;
 
   --font-primary: "Nanum Gothic Coding", monospace;
-  --secondary: "Nanum Gothic Coding", monospace;'Merriweather', serif;
-
-  family: var(--font-primary);
+  --font-secondary: "Nanum Gothic Coding", monospace,"Merriweather", serif;
 }
 
 html {
   font-family: var(--font-primary);
+
 }
 
 h1 {

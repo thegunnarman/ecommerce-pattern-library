@@ -13,15 +13,15 @@
 
 .btn-ghost {
   background-color: var(--color-secondary-accent-important);
-  color: var(--color-primary)
+  color: var(--color-primary);
 }
 
 .btn-ghost:hover {
-  color: var(--color-neutral-beige)
+  color: var(--color-neutral-beige);
 }
 
 .btn-light {
-  background-color: var(--color-secondary)
-  border-color: var(--color-primary)
-  color: var(--color-primary-light)
+  background-color: var(--color-secondary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-light);
 }
