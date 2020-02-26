@@ -2,7 +2,7 @@ a.card-1:hover::before {
   content: " ";
   display: block;
   position: absolute;
-  background: var(--color-quaternary-opacity);
+  background: var(--color-secondary);
   top: 0;
   left: 0;
   right: 0;
@@ -13,7 +13,7 @@ a.card-2:hover::before {
   content: " ";
   display: block;
   position: absolute;
-  background: var(--color-tertiary-opacity);
+  background: var(--color-secondary);
   top: 0;
   left: 0;
   right: 0;
@@ -24,7 +24,7 @@ a.card-3:hover::before {
   content: " ";
   display: block;
   position: absolute;
-  background: var(--color-secondary-opacity);
+  background: var(--color-secondary);
   top: 0;
   left: 0;
   right: 0;
@@ -35,7 +35,7 @@ a.card-4:hover::before {
   content: " ";
   display: block;
   position: absolute;
-  background: var(--color-primary-opacity);
+  background: var(--color-secondary);
   top: 0;
   left: 0;
   right: 0;
@@ -63,5 +63,5 @@ a.card-4:hover::before {
 }
 
 .cardfocus:focus {
-  outline: 3px solid var(--color-focus-page);
+  outline: 3px solid var(--color-secondary);
 }
