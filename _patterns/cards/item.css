@@ -1,0 +1,67 @@
+a.card-1:hover::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: var(--color-quaternary-opacity);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+a.card-2:hover::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: var(--color-tertiary-opacity);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+a.card-3:hover::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: var(--color-secondary-opacity);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+a.card-4:hover::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: var(--color-primary-opacity);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card-icon {
+  visibility: hidden;
+}
+
+.card-1:hover .card-icon {
+  visibility: visible;
+}
+
+.card-2:hover .card-icon {
+  visibility: visible;
+}
+
+.card-3:hover .card-icon {
+  visibility: visible;
+}
+
+.card-4:hover .card-icon {
+  visibility: visible;
+}
+
+.cardfocus:focus {
+  outline: 3px solid var(--color-focus-page);
+}
