@@ -6,13 +6,3 @@ patterns:
     title: "wookie-card"
     description: |
       This is the card for wookie.
-
-
-title: "Cards"
-description: |
-  Cards should be used in situations where needed. Try not to overuse buttons because they should be the primary call-to-action for a screen.
-patterns:
-  wookie-card:
-    title: "star-wars-card"
-    description: |
-      This is the card for wookie.
