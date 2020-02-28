@@ -1,0 +1,40 @@
+.quality-color {
+  background-color: var(--color-white);
+}
+
+.border-col {
+  background-color: transparent;
+  border-color: var(--color-black);
+}
+
+.title-line {
+  color: var(--color-tertiary-pair);
+}
+
+.rotate-img {
+  transform: rotate(-90deg);
+}
+
+.bkg-colorz {
+  background-color: var(--color-tertiary);
+}
+
+.text-position {
+  width: 100%;
+}
+
+.banner-image1 {
+  background-image: url("/images/banner-tea.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 40vh;
+}
+
+.banner-image2 {
+  background-image: url("/images/banner-tea.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 40vh;
+}

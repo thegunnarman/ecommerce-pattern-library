@@ -1,0 +1,9 @@
+<div class="relative banner-image1 center-content" role="banner">
+  <div class="gutter-2 text-position w-1">
+    <h1 class="push-0">{{include.headermain}}</h1>
+    <p>{{include.text}}</p>
+    {% if include.button_url %}
+      {% pattern buttons/ghost text=include.button_text url=include.button_url aria=include.button_aria %}
+    {% endif %}
+  </div>
+</div>
