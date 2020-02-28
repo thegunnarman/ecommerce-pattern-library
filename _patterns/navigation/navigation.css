@@ -1,0 +1,32 @@
+.nav-links {
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid var(--color-focus-page);
+  color: var(--color-grey);
+}
+
+.nav-links:focus {
+  outline: 3px solid var(--color-focus-page);
+  text-decoration: underline;
+  color: var(--color-focus-page);
+}
+
+.nav-current {
+  text-decoration: underline;
+  color: var(--color-focus-page);
+}
+
+.footer-listcolor {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.footer-listcolor:hover {
+  color: var(--color-grey);
+}
+
+.footer-listcolor:focus {
+  outline: 3px solid var(--color-focus-page);
+}
