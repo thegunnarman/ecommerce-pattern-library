@@ -6,7 +6,9 @@ patterns:
     title: "wookie-card"
     description: |
       This is the card for wookie.
+    max-width: 30em
   star-wars-card:
     title: "star-wars-card"
     description: |
       This is the card for star wars.
+    max-width: 30em
