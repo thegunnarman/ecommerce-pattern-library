@@ -6,3 +6,7 @@ patterns:
     title: "wookie-card"
     description: |
       This is the card for wookie.
+  star-wars-card:
+    title: "star-wars-card"
+    description: |
+      This is the card for star wars.
