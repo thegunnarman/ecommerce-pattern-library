@@ -1,0 +1,8 @@
+.card {
+  border: 2px solid var(--color-secondary);
+  background-color: var(--color-primary);
+}
+
+.blue-txt {
+  color: var(--color-secondary-dark);
+}
