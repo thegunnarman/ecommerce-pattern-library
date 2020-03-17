@@ -1,0 +1,117 @@
+.header {
+  background-color: var(--color-primary);
+  overflow: hidden;
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.logo {
+  text-align: center;
+}
+
+.head-txt {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  color: var(--color-neutral-light-grey);
+}
+
+.icon-1 {
+  width: 160px;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  clear: both;
+  border-top: 2px solid var(--color-accent);
+  text-align: center;
+}
+
+/*
+.nav a {
+  display: block;
+  padding: .5em;
+  text-decoration: none;
+  color: var(--color-neutral-light-grey);
+  background-color: var(--color-secondary);
+}
+.nav a:hover {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-neutral-light-grey);
+}
+*/
+
+.nav li {
+  border-bottom: 2px solid var(--color-accent-light);
+}
+
+.nav li:last-child {
+  border-bottom: 0;
+}
+
+.btn-header {
+  display: block;
+  color: var(--color-neutral-dark-grey);
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+  border-radius: 0px;
+  padding: 0.375em;
+}
+
+.btn-header:hover {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-neutral-light-grey);
+  border: 1px solid var(--color-secondary-dark);
+  border-radius: 0px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+    float: left;
+  }
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    clear: none;
+    border-top: 0;
+    float: right;
+    overflow: hidden;
+  }
+
+  .btn-header {
+    display: block;
+    padding: .5em;
+    color: var(--color-neutral-dark-grey);
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-radius: 0px;
+  }
+
+  .btn-header:hover {
+    background-color: var(--color-secondary-dark);
+    color: var(--color-neutral-light-grey);
+    border: 1px solid var(--color-secondary-dark);
+    text-decoration: none;
+    border-radius: 0px;
+  }
+
+  .nav li {
+    border-bottom: 0;
+    display: inline-block;
+    padding: 1.24em .3em;
+  }
+
+  .nav li:last-child {
+    border-bottom: 0;
+    padding-right: 1.3em;
+  }
+
+}

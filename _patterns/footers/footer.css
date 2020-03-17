@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--color-neutral-dark-grey);
+  text-align: center;
+  border-top: 2px solid var(--color-accent);
+}
+
+.btn-footer {
+  background-color: var(--color-transparent);
+  border-color:var(--color-transparent);
+  color: var(--color-accent-light);
+}
+
+.btn-footer:hover {
+  background-color: var(--color-transparent);
+  border-color: var(--color-transparent);
+  color: var(--color-neutral-white);
+}
+
+.review {
+  overflow: hidden;
+}
