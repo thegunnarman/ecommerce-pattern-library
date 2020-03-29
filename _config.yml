@@ -2,6 +2,11 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it included the website's primary header and footer
+      
   title: "the frugal wookie"
   description:
     A store dedicated to affordable nerd things!
